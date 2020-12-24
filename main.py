@@ -14,7 +14,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 
 sched = BlockingScheduler()
 
-@sched.scheduled_job('cron', day_of_week='mon-sun', hour=13, minute=10)
+@sched.scheduled_job('cron', day_of_week='mon-sun', hour=12)
 def update():
     # initialise day, month and year fields
     d = datetime.datetime.now()
