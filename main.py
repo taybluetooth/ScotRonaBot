@@ -83,7 +83,7 @@ def update():
             filename = 'drawn_image.png'
             api.update_with_media(filename, status=message)
 
-        message = "COVID 19 Statistics for Scotland ("+day+"/"+month+"/"+year+"). Data from @NHS and @ScotGov."
+        message = "COVID 19 Statistics for Scotland ("+day+"/"+month+"/"+year+") for the last 24 hours. Data from @NHS and @ScotGov. #Scotland #Coronavirus #RememberFACTS."
         tweet_image(message)
 
     tweet()
